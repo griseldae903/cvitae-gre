@@ -1,0 +1,31 @@
+#cv{
+  background-color:rgb(250, 235, 215);
+  border-radius: 5px;
+  padding: 10px;
+  /* margin-left: 340px; */
+  
+  
+  
+  /* border-color: black; */
+  
+}
+
+#cv:hover {
+    color:brown;
+  }
+  @keyframes changeColor {
+    0% {
+      background-color: rgb(250,235,215);
+    }
+    50% {
+      background-color: rgb(246,181,181);
+    }
+    100% {
+      background-color: rgb(64,116,236);
+    }
+  }
+
+#cv {
+    animation: changeColor 3s infinite;
+  }
+  

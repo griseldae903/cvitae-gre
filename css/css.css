@@ -1,0 +1,362 @@
+*{
+    background-color:none;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+header{
+    height: 160px;
+    background-color: rgba(246, 181, 181 );/*0.204 */
+    position: sticky;
+    top:0;
+    padding: 0;
+    z-index: 0;
+    
+    /* margin-top: 0; */
+    
+    /* display: block; */
+}
+ nav{
+    /*display: flex;*/
+    justify-content: flex-end;
+    margin-top:1px;
+    height:70px;
+    display: flex;
+    
+}
+h1{
+    font-family: 'Domine', serif;
+    font-size: larger;
+    font-weight: lighter;
+    color: rgb(17, 24, 28);
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 1px;
+}
+
+.animate__heartBeat{
+    animation-duration: 3s;
+    /* animation-delay: 2s; */
+}
+a{
+    text-decoration: none;
+    /* font-weight: bold; */
+    color:rgb(13, 13, 13);
+    
+}
+a:hover{
+    color: rgb(215, 72, 72);
+    
+}
+li:hover, a, #be{
+    
+    transform: scale(.85);
+}
+li{
+    height: 25px;/* modificado */
+}
+
+h2{
+    font-size:25px;
+    font-weight:none;
+    margin-top: 1px;
+
+    font-family: 'Ysabeau', sans-serif;
+
+}
+
+ol{
+    display: flex;
+    justify-content: flex-end;
+    /* list-style: none; */
+    /* padding: 15px; */
+    /* background-color: none; */
+}
+li{
+    /* margin: 10px; */
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color:rgb(13, 13, 13);
+    background-color: none;
+    text-decoration: none;
+    box-shadow: 3px 3px 3px cornflowerblue;
+    
+}
+main{
+    display: flex;
+}
+
+
+article{
+    background-color: rgb(165, 42, 42);
+   
+}
+
+img{
+    margin: 35px;
+    padding-left: 290px;
+    flex-wrap: wrap;
+    filter:sepia(0.5);
+    
+    
+}
+#sec{
+    background-color: antiquewhite;
+    height: 600px;
+    width: 40%;
+    z-index: -1;
+    position: relative;
+    
+}
+h3{
+    font-size: 65px;
+    text-align: center;
+    /* background-color: aqua; */
+    margin-top: 80px;
+    font-weight:none;
+    color: rgba(165, 42, 42, 0.823);
+    font-family: 'Domine', serif;
+}
+#seg{
+    /* background-color: aqua; */
+    width: 60%;
+    height: 700px;
+}
+
+h4{
+    text-align:center;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 140px ;
+}
+#description{
+    /* margin-bottom: 20px; */
+    background:none;
+    display: block;
+} 
+
+p:first-child{
+    margin: 85px;
+}
+p:last-child{
+    font-size:35px;
+    /* font-weight:bold; */
+    /* margin-top: 1px; */
+    font-family: 'Ysabeau', sans-serif;
+    margin-top: 180px;
+    text-align: right;
+}
+p {
+    background-color: none;
+    margin-left: 215px;
+    color:rgb(28, 28, 29);
+    font-size:20px ;
+    text-align:left;
+}
+footer{
+    background-color: brown;
+    display:block;
+    height:200px;
+}
+#pie{
+    /* margin-top: 25px; */
+    text-align: center;
+    background-color: brown;
+    color:rgb(196, 206, 230);
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Ysabeau', sans-serif;; */
+    justify-content: center;
+    margin:0;
+}
+#abajo{
+    justify-content: center;
+}
+
+fa-solid fa-sailboat{
+    margin:65px 25px; 
+    font-size: xx-large;
+    padding: 5px;  
+    color:cornflowerblue;
+    
+    
+    
+} 
+i{
+    margin-left: 15px;
+    margin-top: 10px;
+    /* margin-bottom: 1px; */
+    color:rgb(36, 106, 245);
+}
+
+#icono {
+    color:aliceblue;
+    }
+
+#icono:hover{
+    color:rgb(36, 106, 245);
+}
+#red{
+    margin-left: 10px;
+    padding: 25px;
+    
+}
+/* div{
+   margin-left: 25px;} */
+   
+
+
+
+
+/* ---------------- DEL DISEÑO RESPONSIVE  ------------------- */
+
+/* Estilos para pantallas de hasta 1200px */
+@media screen and  (max-width: 1200px) {
+    header {
+        height: 180px;
+    }
+    h1 {
+        margin-top: 20px;
+    }
+   
+    h2 {
+        font-size: 20px;
+    }
+    #sec {
+        height: 400px;
+        width: 100%;
+    }
+   
+
+}
+
+/* Estilos para pantallas de hasta 1000px */
+@media screen and (max-width: 992px) {
+    
+   
+  
+    h1 {
+        margin-top: 10px;
+        font-size: 24px;
+ 
+ 
+    }
+    
+    /* #sec {
+        height: 300px;
+    } */
+    main{
+        display: block;
+    }
+    #sec {
+        height: 400px;
+        width: 100%;
+    }
+    #seg{
+        width:100%;
+        height: 600px;
+        text-align: center;
+
+    }
+   p {
+    text-align: center;
+   }
+
+}
+
+
+/* Estilos para pantallas de hasta 798px */
+
+
+
+/* Estilos para pantallas de hasta 600px */
+@media screen and (max-width: 600px) {
+    header {
+        height: 20vh;
+    }
+ h3{
+    margin-bottom: 40px;
+    margin-top: 150px;
+ }
+    
+    #sec {
+        height: 200px;
+    }
+    #seg {
+        height: 700px;
+    }
+    img {
+        margin: 20px;
+        padding-left: 0;
+    }
+   
+   
+   
+}
+
+/************ hamburguesa******************/
+
+/* Estilos para el menú hamburguesa */
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 10px;
+  }
+  
+  @media screen and (max-width: 585px) {
+    .menu-icon {
+      display: block;
+      margin: 15px;
+      
+    }
+  
+    .menu {
+      display: none;
+      flex-direction: column;
+      align-items: flex-end;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 100%;
+      background-color: rgba(246, 181, 181, 0.9);
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  
+    .menu.active {
+      display: flex;
+    }
+  
+    .menu li {
+      margin: 10px 0;
+    }
+    
+  /* Ocultar checkbox */
+  input[type="checkbox"] {
+    display: none;
+  }
+    /* Ajustar el estilo del menú */
+    #menu-toggle:checked ~ .menu {
+        display: flex;
+      }
+  }
+/* Ocultar checkbox en pantallas mayores a 600px */
+@media screen and (min-width: 586px) {
+    input[type="checkbox"] {
+      display: none;
+    }
+  }

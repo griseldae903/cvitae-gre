@@ -1,0 +1,362 @@
+*{
+    background-color:none;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+header{
+    height: 160px;
+    background-color: rgba(246, 181, 181 );/*0.204 */
+    position: sticky;
+    top:0;
+    padding: 0;
+    /* margin-top: 0; */
+    
+    /* display: block; */
+}
+ nav{
+    /*display: flex;*/
+    justify-content: flex-end;
+    margin-top:1px;
+    height:70px;
+    display: flex;
+   
+} 
+
+h1{
+    font-family: 'Domine', serif;
+    font-size: larger;
+    font-weight: lighter;
+    color: rgb(17, 24, 28);
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 1px;
+}
+a{
+    text-decoration: none;
+    /* font-weight: bold; */
+    color:rgb(13, 13, 13);
+    
+}
+a:hover{
+    color: rgb(215, 72, 72);
+    
+}
+li:hover, a, #be{
+    
+    transform: scale(.85);
+}
+li{
+    height: 25px;/* modificado */
+}
+
+h2{
+    font-size:25px;
+    font-weight:none;
+    margin-top: 1px;
+
+    font-family: 'Ysabeau', sans-serif;
+
+}
+
+ol{
+    display: flex;
+    justify-content: flex-end;
+    /* list-style: none; */
+    /* padding: 15px; */
+    /* background-color: none; */
+}
+li{
+    /* margin: 10px; */
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color:rgb(13, 13, 13);
+    background-color: none;
+    text-decoration: none;
+    box-shadow: 3px 3px 3px cornflowerblue;
+    
+}
+.principal{
+    display: flex;
+}
+#video1{
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 25%;
+}
+#video2{
+  
+  margin-top: 50px; 
+ /* margin-left: 25%; */
+ height: 500px;
+  margin-left: 165px;
+}
+.section-1{
+    width: 50%;
+    background-color: rgb(250,235,215);
+}
+
+.section-2{
+  width: 50%;
+  background-color: rgb(215, 72, 72, 0.15);
+
+}
+h3{
+  margin-top: 50px;
+  margin-left: 20px;
+  
+}
+img{
+  margin-left: 20px;
+}
+
+footer{
+  background-color: brown;
+  display:block;
+  height:200px;
+}
+#pie{
+  /* margin-top: 25px; */
+  text-align: center;
+  background-color: brown;
+  color:rgb(196, 206, 230);
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  /* font-family: 'Ysabeau', sans-serif;; */
+  justify-content: center;
+  margin:0;
+}
+#abajo{
+  justify-content: center;
+}
+
+fa-solid fa-sailboat{
+  margin:65px 25px; 
+  font-size: xx-large;
+  padding: 5px;  
+  color:cornflowerblue;
+  
+  
+  
+} 
+i{
+  margin-left: 15px;
+  margin-top: 10px;
+  /* margin-bottom: 1px; */
+  color:rgb(36, 106, 245);
+}
+
+#icono {
+  color:aliceblue;
+  }
+
+#icono:hover{
+  color:rgb(36, 106, 245);
+}
+#red{
+  margin-left: 10px;
+  padding: 25px;
+  
+}
+
+.section-3{
+  display: flex;
+  background-color: rgb(245,211,194);
+  height: 625px;
+  
+}
+.section-4
+.section-5{
+  display: block;
+  margin-top: 30px;
+  width: 50%;}
+
+.section-4{
+  width: 50%;
+  background-color: rgb(245,211,194);
+}
+.section-5{
+  background-color: rgb(250,235,215);
+  width: 50%;
+}
+#tre{
+  color: brown;
+  font-size: large;
+  margin-top: 30px;
+
+}
+
+#video4{
+  height: 400px;
+  margin-left: 175px;
+  
+}
+#video3{
+  height: 400px;
+  margin-top: 50px;
+  margin-left: 75px;
+  width: 400px;
+
+}
+/************ hamburguesa******************/
+
+/* Estilos para el menú hamburguesa */
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 10px;
+  }
+  
+  @media screen and (max-width: 585px) {
+    .menu-icon {
+      display: block;
+      margin: 15px;
+      
+    }
+  
+    .menu {
+      display: none;
+      flex-direction: column;
+      align-items: flex-end;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 100%;
+      background-color: rgba(246, 181, 181, 0.9);
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  
+    .menu.active {
+      display: flex;
+    }
+  
+    .menu li {
+      margin: 10px 0;
+    }
+    
+  /* Ocultar checkbox */
+  input[type="checkbox"] {
+    display: none;
+  }
+    /* Ajustar el estilo del menú */
+    #menu-toggle:checked ~ .menu {
+        display: flex;
+      }
+  }
+/* Ocultar checkbox en pantallas mayores a 600px */
+@media screen and (min-width: 586px) {
+    input[type="checkbox"] {
+      display: none;
+    }
+  }
+
+/****** RESPONSIVE DESIGN *********/
+
+@media screen and (max-width: 1148px) and (min-width: 950px) {
+  header, .principal,.section-3, footer{
+    width: 100%;
+    margin: 0 auto;
+  }
+  #opacidad{
+    /* margin-left: 20px; */
+  }
+
+  .section-1
+  .section-2
+  .section-4
+  .section-5{
+    width: 50vw;
+  }
+ 
+}
+@media screen and (max-width: 949px) and (min-width: 770px) {
+  header, .principal,.section-3, footer{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .section-1
+  .section-2
+  .section-4
+  .section-5{
+    width: 50vw;
+  }
+ #opacidad{
+  width: 100vw;
+ }
+ h1
+ nav1{
+  font-size: 90%;
+ }
+#codoAcodo{
+  width: 75%;
+}
+#video1{
+  width: 75%;
+  margin-left: 60px;
+}
+/* #video4{
+  margin-left: 60px;
+} */
+#video2{
+  width: 75%;
+  margin-left: 60px;
+}
+#video3{
+  width: 75%;
+  
+}
+}
+@media screen and (max-width: 769px) {
+  header,  footer{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .principal{
+    display: block;
+  }
+  .section-1{
+    width: 100vw;
+  }
+  .video1{
+    margin-right: 10%;
+  }
+  .section-2{
+    width: 100vw;
+  }
+  h3{
+    text-align: center;
+  }
+  #codoAcodo{
+    margin-left: 100px;
+    width: 45vw;
+    height: 10vh;
+  }
+  .video4{
+    margin-right: 200px;
+    height: 25vw;
+  }
+  .section-3{
+    display: block;
+    height:auto;
+  }}
+  @media screen and (max-width: 559px){
+
+  h2{
+    font-size:20px;
+}}
