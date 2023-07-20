@@ -33,7 +33,7 @@ h1{
     color: rgb(17, 24, 28);
     margin-top: 25px;
     margin-left: 10px;
-    margin-bottom: 1px;
+    margin-bottom: 1.5px;
 }
 a{
     text-decoration: none;
@@ -266,97 +266,60 @@ i{
   }
 
 /****** RESPONSIVE DESIGN *********/
+@media screen and (max-width: 950px) and (min-width: 768px){
+  #codoAcodo{width: 70%; }
+}
+#video4{
+  margin-top: 30px;
+  height: 375px;
+  margin-left: 87px;
+}
+#video1{width: 90%; margin-left: 35px;}
+#video2{width:75%; margin-left: 65px; height:450px}
+#video3{width: 75%}
 
-@media screen and (max-width: 1148px) and (min-width: 950px) {
-  header, .principal,.section-3, footer{
-    width: 100%;
-    margin: 0 auto;
+@media screen and (max-width: 767px) and (min-width: 600px){
+  #codoAcodo{width: 65%; }
+  .section-1, .section-2, .section-4, .section-5{
+    max-width: 50%;
   }
-  #opacidad{
-    /* margin-left: 20px; */
-  }
+#video1{width: 85%; margin-left: 30px;}
+#video4{
+  height: 370px;
+  margin-left: 85px;
+}
 
-  .section-1
-  .section-2
-  .section-4
-  .section-5{
-    width: 50vw;
-  }
- 
-}
-@media screen and (max-width: 949px) and (min-width: 770px) {
-  header, .principal,.section-3, footer{
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .section-1
-  .section-2
-  .section-4
-  .section-5{
-    width: 50vw;
-  }
- #opacidad{
-  width: 100vw;
- }
- h1
- nav1{
-  font-size: 90%;
- }
-#codoAcodo{
-  width: 75%;
-}
-#video1{
-  width: 75%;
-  margin-left: 60px;
-}
-/* #video4{
-  margin-left: 60px;
-} */
-#video2{
-  width: 75%;
-  margin-left: 60px;
-}
-#video3{
-  width: 75%;
-  
-}
-}
-@media screen and (max-width: 769px) {
-  header,  footer{
-    width: 100%;
-    margin: 0 auto;
-  }
-  .principal{
-    display: block;
-  }
-  .section-1{
-    width: 100vw;
-  }
-  .video1{
-    margin-right: 10%;
-  }
-  .section-2{
-    width: 100vw;
-  }
-  h3{
+#video3{width: 73%; margin-top: 5x; padding: 0;}
+  #idd{
     text-align: center;
   }
-  #codoAcodo{
-    margin-left: 100px;
-    width: 45vw;
-    height: 10vh;
-  }
-  .video4{
-    margin-right: 200px;
-    height: 25vw;
-  }
-  .section-3{
-    display: block;
-    height:auto;
-  }}
+}
+@media screen and (max-width: 599px) and (min-width: 320px){
+.principal{
+  display: block;
+}
+.section-1, .section-2{
+  width: 100%;
+}
+#codoAcodo{width: 60%; margin-left: 150px; }
+#video4{ margin-left: 160px;}
+#video2{margin-top: 30px; margin-left: 30px;}
+#video3{margin-left: 30px;}
+
+
+}
   @media screen and (max-width: 559px){
 
   h2{
     font-size:20px;
 }}
+
+@media screen and (max-width: 413px){
+  h1{
+    font-size: large;
+  }
+  h2{
+    font-size: 18px;
+  }
+
+}

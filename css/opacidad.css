@@ -20,16 +20,39 @@
     z-index: 0;
   }
   
-  #orden h2, #orden h3, #orden p {
+  #orden, #orden3 h2, #orden h3, #orden p {
     color: #000;
   }
   .pe{
     margin-left: 50px;
     font-size:medium;
   }
+  @media screen and (max-width: 413px){
+    h1{
+      font-size: large;
+    }
+    h2{
+      font-size: 20px;
+    }
 
+  }
   @media screen and (max-width: 590px) {
     h2{
-        font-size:20px;
+        font-size:18px;
     };
+  }
+  @media screen and (max-width: 730px){
+    #sep3
+    #sep1{
+      max-width: 100%;
+    }
+    #orden1, #orden, #arti, #orden2{
+      max-width: 50%;
+    }
+    #bar, #barc{
+      width: 85%;
+    }
+    #barc{
+      margin-top: 50px;
+    }
   }
