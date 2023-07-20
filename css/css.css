@@ -364,3 +364,12 @@ i{
       display: none;
     }
   }
+@media screen and (max-width: 413px){
+    h1{
+      font-size: large;
+    }
+    h2{
+      font-size: 18px;
+    }
+
+  }
