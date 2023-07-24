@@ -44,6 +44,9 @@
       /* margin: -20px 15px 15px 15px;  */
       font-size: 25px;
   }
+  header{
+    max-width: 100%;
+}
   #tituli{
     font-size: 20px;
     font-weight: bold;

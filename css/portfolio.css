@@ -317,6 +317,9 @@ i{
   font-size: 20px;
   font-weight: bold;
 }
+header{
+  max-width: 100%;
+}
 }
 
 @media screen and (max-width: 413px){
