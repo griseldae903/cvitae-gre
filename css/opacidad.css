@@ -31,16 +31,37 @@
     h1{
       font-size: large;
     }
-    h2{
+   
+    #hache-doss{
+      /* margin: -20px 15px 15px 15px;  */
       font-size: 20px;
-    }
+  }
 
   }
   @media screen and (max-width: 590px) {
-    h2{
-        font-size:18px;
-    };
+   
+    #hache-doss{
+      /* margin: -20px 15px 15px 15px;  */
+      font-size: 25px;
   }
+  #tituli{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #sep{
+    display: block;
+  }
+  #orden{
+    width: 100%;
+  }
+  #barco{
+    filter:grayscale(0.5);
+    margin-right:65px;
+    margin-top: 50px;
+    z-index: 2;
+    flex-wrap: nowrap;
+    
+}}
   @media screen and (max-width: 730px){
     #sep3
     #sep1{

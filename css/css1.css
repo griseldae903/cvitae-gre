@@ -49,7 +49,7 @@ a:hover{
 }
 h2{
     font-size:25px;
-    font-weight:none;
+    font-weight:bold;
     margin-top: 1px;
 
     font-family: 'Ysabeau', sans-serif;
@@ -220,6 +220,7 @@ h3 {
 #hache-cuatro, #hache-cin, #per{
     color:rgb(215, 72, 72);
 }
+
 #bar{
     max-height: 480px;
     max-width:564px;

@@ -312,7 +312,12 @@ i{
 
   h2{
     font-size:20px;
-}}
+}
+#tituli{
+  font-size: 20px;
+  font-weight: bold;
+}
+}
 
 @media screen and (max-width: 413px){
   h1{
