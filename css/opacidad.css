@@ -34,37 +34,56 @@
    
     #hache-doss{
       /* margin: -20px 15px 15px 15px;  */
-      font-size: 20px;
+      font-size: 10px;
+      font-weight: bold;
+      color: black;
   }
-
+  header{
+    max-width: 100%;
+  }
   }
   @media screen and (max-width: 590px) {
    
     #hache-doss{
       /* margin: -20px 15px 15px 15px;  */
-      font-size: 25px;
+     
+      font-size: 10px;
+      font-weight: bold;
+      color: black;
   }
   header{
     max-width: 100%;
 }
   #tituli{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
   }
   #sep{
     display: block;
-  }
-  #orden{
     width: 100%;
   }
-  #barco{
-    filter:grayscale(0.5);
-    margin-right:65px;
-    margin-top: 50px;
-    z-index: 2;
-    flex-wrap: nowrap;
+  #orden{
+   width: 100%;
+    height: 65%;
+    margin-left: 25%;
     
-}}
+    background-color: brown;
+  }
+ 
+  #orden3{
+    max-width: 100vw; margin-left: 0;}
+
+  #barco{
+    width: 100vw;
+    filter:grayscale(0.5);
+    margin: 80px 0;
+    z-index: 2;
+    
+    
+}
+
+
+}
   @media screen and (max-width: 730px){
     #sep3
     #sep1{
